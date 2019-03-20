@@ -1,0 +1,273 @@
+
+
+body {
+  color: black;
+  background: url("../images/white-waves.png");
+  }
+  
+  header {
+    background: #ffffff;
+    margin-top: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+  }
+
+  #header_tabs {
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    width: 25%;
+  }
+
+  .clearfix::after {
+    content: " ";
+    clear: both;
+    display: table;
+  }
+
+  h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+  }
+
+  #about_me {
+    background: #ffffff;
+    height: 400px;
+    width: 1000px;
+    border-color: #dddddd;
+    padding: 20px;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+
+  }
+
+  h2 {
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 20px, 20px, 20px, 20px;
+  }
+
+  #bio_image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+
+  #footer {
+    background: #666666;
+    height: 40px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+    margin-bottom: 0;
+    margin-top: 100px;
+
+
+  }
+
+  #contact_box {
+    background: #ffffff;
+    width: 600px;
+    height: 450px;
+    margin-left: 450px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+
+  }
+
+  h3 {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+
+  }
+
+  .name_box[type=text] {
+    width: 560px;
+    height: 20px;
+    margin-left: 0px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color:#dddddd;     */
+  }
+
+  .email_box[type=text] {
+    width: 560px;
+    height: 20px;
+    margin-left: 0px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color:#dddddd;  */
+  }
+
+  .message_box[type=text] {
+    width: 560px;
+    height: 180px;
+    margin-left: 10px;
+    /* border-style: solid; */
+    /* border-width: 1px; */
+    /* border-color:#dddddd;  */
+  }
+
+  .submit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 80px;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    /* font-weight: bold; */
+    padding-top: 10px;
+
+  }
+
+  .submit:hover {
+    background-color: gray;
+
+  }
+
+  #Portfolio {
+    background: #ffffff;
+    width: 480px;
+    height: 790px;
+    margin-left: 450px;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+  }
+
+  h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: white;
+    background: #4aaaa5;
+    text-align: center;
+    height:50px;
+    width: 200px;
+  }
+
+  #hangman_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #hangman_button {
+    position: absolute;
+    top: 320px;
+    left: 500px;
+  }
+
+  #hangman_button:hover {
+    background-color: gray;
+
+  }
+
+  #rpg_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #rpg_button {
+    position: absolute;
+    top: 320px;
+    left: 740px;
+  }
+
+  #rpg_button:hover {
+    background-color: gray;
+
+  }
+
+  #trivia_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #trivia_button {
+    position: absolute;
+    top: 560px;
+    left: 500px;
+  }
+
+  #trivia_button:hover {
+    background-color: gray;
+
+  }
+
+  #rutgers_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #rutgers_button {
+    position: absolute;
+    top: 560px;
+    left: 740px;
+  }
+
+  #rutgers_button:hover {
+    background-color: gray;
+
+  }
+
+  #rps_box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: url("../images/placeholder1.jpg");
+    margin: 20px;
+  }
+
+  #rps_button {
+    position: absolute;
+    top: 800px;
+    left: 500px;
+  }
+
+  #rps_button:hover {
+    background-color: gray;
+
+  }
